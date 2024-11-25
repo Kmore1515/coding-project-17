@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import TourDashbouard from './Gallery'
+import TourDashboard from './Gallery'
 function App() {
 
   return (
     <>
-    <TourDashbouard/>
+    <TourDashboard/>
     </>
   )
 }

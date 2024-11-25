@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function TourDashbouard() {
+function TourDashboard() {
     const [tours, setTours] = useState([]);
     const [Loading, setLoading] = useState(false)
     const [showMore, setShowMore] = useState({})
@@ -27,7 +27,7 @@ function TourDashbouard() {
         }
     return (
         <>
-        <h2>Tours</h2>
+        <h2></h2>
         <ul>
             {tours.map(tour => ( // Grabing all the names, info, images, and prices to display them.
                 <li key={tour.id}>
@@ -45,4 +45,4 @@ function TourDashbouard() {
     );
 }
 
-export default TourDashbouard;
+export default TourDashboard;
